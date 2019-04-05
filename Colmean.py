@@ -7,15 +7,15 @@ import numpy as ny
 data = ny.genfromtxt('Iris dataset.csv', delimiter=',')
 
 
-firstcol = data[1:,0]
-seccol = data[2:,0]
+#col1 = data[1:,0]
+#col2 = data[2:,0]
 #print (firstcol) testing the correct col returned
-meanfirstcol = ny.mean(data[1:,0])
-meanseccol = ny.mean(data[2:,0])
-meanthicol = ny.mean(data[3:,0])
-meanfoucol = ny.mean(data[4:,0])
+meancol1 = ny.mean(data[1:,0])
+meancol2 = ny.mean(data[1:,1])
+meancol3 = ny.mean(data[1:,2])
+meancol4 = ny.mean(data[1:,3])
 
-print("The Mean of the first column is: ", meanfirstcol,
-"The Mean of the second column is: ", meanseccol,
-"The Mean of the third column is: ", meanthicol,
-"The Mean of the fourth column is: ", meanfoucol,)
+print("The Mean of the first column is: ", meancol1,
+"The Mean of the second column is: ", meancol2,
+"The Mean of the third column is: ", meancol3,
+"The Mean of the fourth column is: ", meancol4,)
