@@ -5,6 +5,10 @@
 import numpy as ny
 import pandas as ps
 
+
 #Read the date file into an array
 data = ny.genfromtxt('Iris dataset.csv', delimiter=',')
-data.sort_values(by=['species'])
+#Index the five columns
+df=pd.data(np.random.randn(150,5) columns=['A', 'B', 'C', 'D', 'E'])
+
+
