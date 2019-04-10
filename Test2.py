@@ -21,13 +21,13 @@ from sklearn.model_selection import train_test_split
 #reads in the CSV file as a pandas dataframe
 df = pd.read_csv('Iris dataset.csv')
 #Prints the first five entries 
-print (data.head())
+print (df.head())
 #Prints the first five entries
-print (data.tail())
+print (df.tail())
  
-print (data.info())
+print (df.info())
 #Metadata of the dataframe
-print (data.describe())
+print (df.describe())
 #gives the mean, max, min of the dataframe.
 
 #print (data['Species'].value_counts()) Not working
@@ -35,13 +35,13 @@ print (data.describe())
  # data.__delitem__('Id') #???
 #print (data.head())
 
-print (data['Species'].unique()) Not working
+#print (df['Species'].unique()) #Not working
 
 
 print (df.groupby('species').size())
 
-df.hist(figsize=(10,5))
-plt.show()
+#df.hist(figsize=(10,5))
+#plt.show()
 
 
 
