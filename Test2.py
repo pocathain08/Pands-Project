@@ -18,15 +18,40 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv('Iris dataset.csv')
-
+#reads in the CSV file as a pandas dataframe
+df = pd.read_csv('Iris dataset.csv')
+#Prints the first five entries 
 print (data.head())
+#Prints the first five entries
 print (data.tail())
  
 print (data.info())
+#Metadata of the dataframe
 print (data.describe())
+#gives the mean, max, min of the dataframe.
 
-#print (data['Species'].value_counts())
+#print (data['Species'].value_counts()) Not working
+#if 'Id' in data.columns:
+ # data.__delitem__('Id') #???
+#print (data.head())
+
+print (data['Species'].unique()) Not working
+
+
+print (df.groupby('species').size())
+
+df.hist(figsize=(10,5))
+plt.show()
+
+
+
+
+
+
+
+
+
+
 
 
 
