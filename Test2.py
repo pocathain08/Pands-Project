@@ -21,16 +21,16 @@ from sklearn.model_selection import train_test_split
 #reads in the CSV file as a pandas dataframe
 df = pd.read_csv('Iris dataset.csv')
 #Prints the first five entries 
-print (df.head())
+#-print (df.head())
 #Prints the first five entries
-print (df.tail())
+#-print (df.tail())
  
-print (df.info())
+#-print (df.info())
 #Metadata of the dataframe
-print (df.describe())
+#-print (df.describe())
 #gives the mean, max, min of the dataframe.
 
-#print (data['Species'].value_counts()) Not working
+#-print (df[1:,4].value_counts()) #Not working
 #if 'Id' in data.columns:
  # data.__delitem__('Id') #???
 #print (data.head())
@@ -38,7 +38,9 @@ print (df.describe())
 #print (df['Species'].unique()) #Not working
 
 
-print (df.groupby('species').size())
+print (df.groupby(('species') == 'setosa'))
+#groups the data Frame by species and gives the number of each. 
+
 
 #df.hist(figsize=(10,5))
 #plt.show()
