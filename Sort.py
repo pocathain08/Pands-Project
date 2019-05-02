@@ -9,6 +9,6 @@ import pandas as ps
 #Read the date file into an array
 data = ny.genfromtxt('Iris dataset.csv', delimiter=',')
 #Index the five columns
-df=pd.data(np.random.randn(150,5) columns=['A', 'B', 'C', 'D', 'E'])
-
+#df=pd.data(np.random.randn(150,5) columns=['A', 'B', 'C', 'D', 'E'])
+data.target_names
 
