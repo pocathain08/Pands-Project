@@ -27,9 +27,11 @@ print (df.head (3))
 
 df.sort_values(by = "species")
 print (df.iloc[48:52])
+#print (df.target)
 
-from pandas.tools.plotting import pandas.plotting.scatter_matrix #as scatter_matrix
-scatter_matrix(df, diagonal="kde")
+#Print a scatter diagram
+#from pandas.tools.plotting import pandas.plotting.scatter_matrix #as scatter_matrix
+#scatter_matrix(df, diagonal="kde")
 
 #plt.show()
 
