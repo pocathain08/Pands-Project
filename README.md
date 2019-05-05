@@ -4,19 +4,31 @@
 The Iris Dataset
 Introduction
 The Iris flower data set or Fisher’s Iris data set is a multivariate data set introduced by Sir Ronald Fisher (1936) as an example of discriminant analysis Fisher [1936]. Iris is a genus of 260–300 species of flowering plants with showy flowers (see Fig. 2.5). The name stems from the Greek word for a rainbow, as the flower colors have a broad variety. The three species of the data set are Iris setosa (Beachhead Iris), Iris versicolor (Larger Blue Flag, Harlequin Blueflag), and Iris virginica (Virginia Iris). This data set is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species Anderson [1935]. Two of the three species were collected in the Gaspe Peninsula “all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus” Anderson [1935].
-Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters(see Fig. 2.6). For each of the three species 50 flowers were measured (see part of the data in Tab. 2.2). Based on these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters, as can be seen below.
+
+![Description] (Images\Iris.png?raw=true "Data Summary")
+
+
+ For each of the three species 50 flowers were measured (see part of the data in Tab. 2.2). Based on these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 Ref: https://mail.google.com/mail/ca/u/0/?shva=1#search/iris/QgrcJHrtvWmlxhwbmRlJhchSxHVQwWlmPQq?projector=1&messagePartId=0.1
 
 The following table is a screengrab from a python program that gives a brief summary of the data within the Iris data set.
 
-![Description] (Images\Datadescribe.jpg?raw=true "Data Summary")
+![Description] (Images\Datadescribe.png?raw=true "Data Summary")
 # image uploaded using relative path, but not showing up on the github README.md file. I tried to directly upload the image on github using https://www.youtube.com/watch?v=hHbWF1Bvgf4 but this didn't work, I did however learn about my branch being ahead of 'origin/master' by 1 commit and how to fix this (Stackoverflow)
 
 
-Edgar Anderson
+The following table slices the data to compare the features (Attributes, in this case Sepal length, Sepal width, petal length, and petal width)
+
+![Description] (Images/Comparison.png?raw=true "Sample comparison with total dataset")
+
+Thers are some significant differences in the averages between the entire dataset and the individual species. A Machine Learning program confirms this by giving an accuracy prediction of 96% that given the data features, it is possible to predict the species.
+
+![Description] (Images\prediction.png?raw=true "Data prediction")
+
+
 
 Relevance to Data Analytics
-
 The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.
 •	Containing 150 observations, it is small but not trivial.
 •	The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
