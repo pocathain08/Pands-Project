@@ -6,7 +6,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.datasets import load_iris
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 #When I import matplotlib, I get the following 
     #Traceback File "C:\Users\35386\Anaconda3\lib\site-packages\matplotlib\pyplot.py", line 8
         #The object-oriented API is recommended for more complex plots.
@@ -14,6 +14,12 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("Iris dataset.csv")
 print (data.info())
 print(data['species'].value_counts())
+
+print("Target names: {}".format(data['target_names']))
+
+
+print("Keys of iris_dataset: \n{}".format(data.keys()))
+
 
 data1=data[data['species'] == 'setosa']
 data2=data[data['species'] == 'versicolor']

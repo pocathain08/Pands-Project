@@ -1,6 +1,6 @@
 #This program will sort date by species type for comparison
 #Objective is to create a species specific file
-#Ref: pandas: pwoerful Python data analysis toolkit by Wes McKinney & PyData Development Team, 31 Mar 2019
+#Ref: pandas: powerful Python data analysis toolkit by Wes McKinney & PyData Development Team, 31 Mar 2019
 #Peadar O Cathain 05 Apr 2019
 
 import numpy as ny
