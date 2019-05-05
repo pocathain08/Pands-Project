@@ -7,7 +7,10 @@ The Iris flower data set or Fisher’s Iris data set is a multivariate data set 
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters(see Fig. 2.6). For each of the three species 50 flowers were measured (see part of the data in Tab. 2.2). Based on these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 Ref: https://mail.google.com/mail/ca/u/0/?shva=1#search/iris/QgrcJHrtvWmlxhwbmRlJhchSxHVQwWlmPQq?projector=1&messagePartId=0.1
 
-![Description] (Datadescription.jpg)
+The following table is a screengrab from a python program that gives a brief summary of the data within the Iris data set.
+
+![Description] (Images\Datadescribe.jpg?raw=true "Data Summary")
+# image uploaded using relative path, but not showing up on the github README.md file. I tried to directly upload the image on github using https://www.youtube.com/watch?v=hHbWF1Bvgf4 but this didn't work, I did however learn about my branch being ahead of 'origin/master' by 1 commit and how to fix this (Stackoverflow)
 
 
 Edgar Anderson
