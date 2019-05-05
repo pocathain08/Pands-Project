@@ -7,7 +7,7 @@ The Iris flower data set or Fisher’s Iris data set is a multivariate data set 
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters(see Fig. 2.6). For each of the three species 50 flowers were measured (see part of the data in Tab. 2.2). Based on these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 Ref: https://mail.google.com/mail/ca/u/0/?shva=1#search/iris/QgrcJHrtvWmlxhwbmRlJhchSxHVQwWlmPQq?projector=1&messagePartId=0.1
 
-![Description] (Images/datadescription.jpg)
+![Description] (Datadescription.jpg)
 
 
 Edgar Anderson
