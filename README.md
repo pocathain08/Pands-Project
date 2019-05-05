@@ -6,7 +6,9 @@ Introduction
 The Iris flower data set or Fisher’s Iris data set is a multivariate data set introduced by Sir Ronald Fisher (1936) as an example of discriminant analysis Fisher [1936]. Iris is a genus of 260–300 species of flowering plants with showy flowers (see Fig. 2.5). The name stems from the Greek word for a rainbow, as the flower colors have a broad variety. The three species of the data set are Iris setosa (Beachhead Iris), Iris versicolor (Larger Blue Flag, Harlequin Blueflag), and Iris virginica (Virginia Iris). This data set is sometimes called Anderson’s Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species Anderson [1935]. Two of the three species were collected in the Gaspe Peninsula “all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus” Anderson [1935].
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters(see Fig. 2.6). For each of the three species 50 flowers were measured (see part of the data in Tab. 2.2). Based on these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
 Ref: https://mail.google.com/mail/ca/u/0/?shva=1#search/iris/QgrcJHrtvWmlxhwbmRlJhchSxHVQwWlmPQq?projector=1&messagePartId=0.1
-Sir Ronald Fisher
+
+![Description] (Images/datadescription.jpg)
+
 
 Edgar Anderson
 
