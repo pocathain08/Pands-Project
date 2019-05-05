@@ -15,12 +15,6 @@ data = pd.read_csv("Iris dataset.csv")
 print (data.info())
 print(data['species'].value_counts())
 
-print("Target names: {}".format(data['target_names']))
-
-
-print("Keys of iris_dataset: \n{}".format(data.keys()))
-
-
 data1=data[data['species'] == 'setosa']
 data2=data[data['species'] == 'versicolor']
 data3=data[data['species'] == 'virginica']
